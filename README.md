@@ -7,7 +7,7 @@
 
 2) docker build -t fordodone/s3fs-fuse .
 
-3) docker run --rm -it --privileged -e "BUCKET=<bucketname>" fordodone/s3fs-fuse:latest
+3) docker run --rm -it --privileged -e "BUCKET=\<bucketname\>" fordodone/s3fs-fuse:latest
 
 4) test by listing the fuse mount
 
