@@ -15,7 +15,7 @@
 
 5) mount additional buckets
 
-     s3mount <bucketname2>
+     s3mount <bucketname2> && ls /mnt/s3fs/<bucketname2>
 
 ## TODO
 * figure out how to run without --privileged flag
