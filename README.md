@@ -13,6 +13,10 @@
 
      cd /mnt/s3fs/<bucketname> && ls
 
+5) mount additional buckets
+
+     s3mount <bucketname2>
+
 ## TODO
 * figure out how to run without --privileged flag
 * may need to set memory limits on container for large fuse operations
